@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[The Controller sheet is successfully loaded]]>
+    </line>
+    <line>
+      <![CDATA[STEP2]]>
+    </line>
+  </reporter-output>
+  <suite name="Regression Test Script Execution Status" duration-ms="101968" started-at="2017-04-03T11:56:36Z" finished-at="2017-04-03T11:58:18Z">
+    <groups>
+    </groups>
+    <test name="SignInTestcase" duration-ms="101968" started-at="2017-04-03T11:56:36Z" finished-at="2017-04-03T11:58:18Z">
+      <class name="com.ta3s.testcases.LoginTest">
+        <test-method status="PASS" signature="initiate()[pri:0, instance:com.ta3s.testcases.LoginTest@3c09711b]" name="initiate" is-config="true" duration-ms="39044" started-at="2017-04-03T17:25:57Z" finished-at="2017-04-03T17:26:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initiate -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.ta3s.testcases.LoginTest@3c09711b]" name="setUp" is-config="true" duration-ms="15010" started-at="2017-04-03T17:26:36Z" finished-at="2017-04-03T17:26:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[The Controller sheet is successfully loaded]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="SignIn()[pri:0, instance:com.ta3s.testcases.LoginTest@3c09711b]" name="SignIn" duration-ms="86636" started-at="2017-04-03T17:26:52Z" finished-at="2017-04-03T17:28:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[STEP2]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method status="PASS" signature="quitBrowser()[pri:0, instance:com.ta3s.testcases.LoginTest@3c09711b]" name="quitBrowser" is-config="true" duration-ms="256" started-at="2017-04-03T17:28:18Z" finished-at="2017-04-03T17:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitBrowser -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.ta3s.testcases.LoginTest@3c09711b]" name="tearDown" is-config="true" duration-ms="3135" started-at="2017-04-03T17:28:22Z" finished-at="2017-04-03T17:28:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.ta3s.testcases.LoginTest -->
+    </test> <!-- SignInTestcase -->
+  </suite> <!-- Regression Test Script Execution Status -->
+</testng-results>
